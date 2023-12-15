@@ -1,0 +1,5 @@
+<form [formGroup]="myForm"></form>
+Forms are used to collect and process user input.
+The form model is created using angular's 'FormGroup' class.
+Reactive Forms,use the 'FormGroup' and 'FormControl' classes to create a model of the form in the component class.
+'FormGroup' is used to represents a group of form controls, and 'FormControl' represents an individual form control(e.g,an input field).
